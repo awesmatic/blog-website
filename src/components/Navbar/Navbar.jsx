@@ -2,10 +2,10 @@ import React from 'react'
 import styles from './navbar.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import { ThemeToggle } from '../ThemeToggle/ThemeToggle'
-import { AuthLinks } from '../AuthLinks/AuthLinks'
+import { ThemeToggle } from '../themeToggle/ThemeToggle'
+import { AuthLinks } from '../authLinks/AuthLinks'
 
-export const Navbar = () => {
+const Navbar = () => {
     return (
         <div className={styles.container}>
             <div className={styles.social}>
@@ -27,3 +27,4 @@ export const Navbar = () => {
         </div>
     )
 }
+export default Navbar
